@@ -17,11 +17,19 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/', function () {
-    return view('home',
-        [
-            'name' => 'Alessandro',
-            'srcLogo' => 'https://m.media-amazon.com/images/I/51xv9QsBymL._AC_UY606_.jpg'
-        ]
-    );
+Route::get('/aboutme', function() {
+    return view('aboutme',
+    [
+        'name' => 'Alessandro',
+        'srcLogo' => 'https://m.media-amazon.com/images/I/51xv9QsBymL._AC_UY606_.jpg'
+    ]);
+});
+
+Route::get('/altrapagina', function() {
+    return view('altrapagina');
+});
+
+
+Route::get('/altrapaginaancora', function() {
+    return view('altrapaginaancora');
 });

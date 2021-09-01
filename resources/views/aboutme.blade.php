@@ -7,13 +7,16 @@
     <title>Document</title>
 </head>
 <body>
+    CIAO
+    
+    HELLO WORLD
     <br>
-    <div>
-        <a href="/aboutme">about me</a>
-        <a href="/altrapagina">altra pagina</a>
-        <a href="/altrapaginaancora">altra pagina ancora</a>
-    </div>
+    CIAO QUESTA E' LA MIA PRIMA INSTALLAZIONE  DI LARAVEL
     <br>
-
+    MI CHIAMO {{$name}}
+    <br>
+    e questo sono io:
+    <br>
+    <img src="{{$srcLogo}}" alt="">
 </body>
 </html>
