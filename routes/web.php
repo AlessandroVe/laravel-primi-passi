@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/', function () {
+    return view('home',
+        [
+            'name' => 'Alessandro',
+            'srcLogo' => 'https://m.media-amazon.com/images/I/51xv9QsBymL._AC_UY606_.jpg'
+        ]
+    );
+});

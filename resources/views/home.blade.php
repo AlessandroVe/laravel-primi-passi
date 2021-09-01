@@ -8,5 +8,13 @@
 </head>
 <body>
     HELLO WORLD
+    <br>
+    CIAO QUESTA E' LA MIA PRIMA INSTALLAZIONE  DI LARAVEL
+    <br>
+    MI CHIAMO {{$name}}
+    <br>
+    e questo sono io:
+    <br>
+    <img src="{{$srcLogo}}" alt="">
 </body>
 </html>
